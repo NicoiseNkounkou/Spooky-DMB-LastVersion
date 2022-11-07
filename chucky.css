@@ -1,0 +1,239 @@
+nav{
+
+
+
+    display: flex;
+
+
+
+    justify-content: space-between;
+
+
+
+    align-items: center;
+
+
+
+   
+
+
+
+    margin: 80px;
+
+
+
+    border-bottom: 1px solid white;
+
+
+
+    padding-bottom: 20px;
+
+
+
+    position: relative;
+
+
+
+    bottom: 35px;
+
+
+
+   
+
+
+
+}
+
+
+
+
+
+
+
+
+nav a {
+
+
+
+    text-decoration: none;
+
+
+
+    font-size: 34px;
+
+
+
+    color: white;
+
+
+
+    font-family: "julee";
+
+
+
+   
+
+
+
+
+
+}
+
+
+
+
+
+nav :hover{
+
+
+
+    cursor: pointer;
+
+
+
+    color: orange;
+
+
+
+}
+
+.ul-perso{
+
+
+
+    display: flex;
+
+
+
+    list-style: none;
+
+
+
+    gap: 100px;
+
+
+
+}
+.ul-perso a {
+
+
+
+    text-decoration: none;
+
+
+
+    font-size: 24px;
+
+
+
+    font-weight: medium;
+
+
+
+    color: white;
+
+
+
+   
+
+
+
+
+
+}
+
+
+
+
+
+.ul-perso a:hover{
+
+
+
+    cursor: pointer;
+
+
+
+    color: orange;
+
+
+
+}
+
+
+
+ div{
+
+    background-color: rgb(48, 40, 40);
+
+    display: flex;
+
+    gap: 20px;
+
+     
+
+
+
+}
+
+p{
+
+font-size: 30px;
+
+padding-top:0px;
+
+
+
+}  
+
+
+
+image{
+
+    height: 500px;
+
+    width: 600px;
+
+    border-radius: 60px;
+
+    padding-top: 130PX;
+
+    padding-left: 85px;
+
+    padding-bottom: 80px;
+
+    margin-left: 230px;
+
+
+
+}
+
+h1{
+
+    font-size: 60px;
+
+    font: 1em sans-serif;
+
+    color: beige;
+
+    padding-left: 180px;
+
+    padding-top: 0px;
+
+}
+
+ 
+
+ body   {
+
+    background-color: rgb(43, 35, 26);
+
+ }
+
+ .churcky{
+
+    height: 500px;
+
+    width: 600px;
+
+ }
