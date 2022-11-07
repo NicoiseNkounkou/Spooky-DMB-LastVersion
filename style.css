@@ -1,0 +1,213 @@
+*{
+
+    margin: 0%;
+
+    padding: 0%;
+
+    box-sizing: border-box;
+
+    font-weight: normal;
+
+    font-size: 10px;
+
+   
+
+
+
+}
+
+
+
+body{
+
+    background-color: black;
+
+    opacity: 100%;
+
+   
+
+}
+
+
+
+nav{
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;  
+
+
+    border-bottom: 1px solid white;
+
+    padding-bottom: 20px;
+
+
+    bottom: 35px;
+
+   
+
+}
+
+
+
+
+
+nav a {
+
+    text-decoration: none;
+
+    font-size: 34px;
+
+    color: white;
+
+    font-family: "julee";
+
+   
+
+
+
+}
+
+
+
+nav :hover{
+
+    cursor: pointer;
+
+    color: orange;
+
+}
+
+
+.ul-perso{
+
+    display: flex;
+
+    list-style: none;
+
+    gap: 100px;
+
+}
+
+
+
+
+.ul-perso a {
+
+    text-decoration: none;
+
+    font-size: 24px;
+
+    font-weight: medium;
+
+    color: white;
+
+   
+
+
+
+}
+
+
+
+.ul-perso a:hover{
+
+    cursor: pointer;
+
+    color: orange;
+
+}
+
+
+
+/*pour la photo*/
+
+.big-pic{
+
+    width: 40%;
+
+
+    left:50px;
+
+    margin: 80px;
+
+
+
+}
+
+
+
+img{
+
+    width: 75%;
+
+}
+
+
+
+.boo{
+
+
+    bottom: 390px;
+
+    width: 30%;
+    margin-right: 250px;
+  
+
+    color: white;
+
+    left: 50%;
+
+   
+
+}
+
+
+
+p{
+
+    margin-right: 150px;
+     width: 450px;
+    font-size: 24px;
+    
+
+}
+
+
+
+.arrows{
+
+  padding-top: 50px;
+
+    width: 80%;
+
+   padding-left: 100px;
+ 
+   
+
+
+
+}
+
+
+
+
+.body{
+    margin-top: 80px;
+    display: flex;
+    
+    justify-content: space-between;
+
+    align-items: center;  
+}
+
+
+
+
+.navbarre{
+    margin-left : 80px;
+    margin-right :80px;
+    margin-top: 50px;
+
+}
