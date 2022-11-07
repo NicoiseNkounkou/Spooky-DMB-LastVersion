@@ -1,0 +1,179 @@
+nav{
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+   
+
+    margin: 80px;
+
+    border-bottom: 1px solid white;
+
+    padding-bottom: 20px;
+
+    position: relative;
+
+    bottom: 35px;
+
+   
+
+}
+
+
+
+
+
+
+nav a {
+
+    text-decoration: none;
+
+    font-size: 34px;
+
+    color: white;
+
+    font-family: "julee";
+
+   
+
+
+
+}
+
+
+
+nav :hover{
+
+    cursor: pointer;
+
+    color: orange;
+
+}
+.ul-perso{
+
+    display: flex;
+
+    list-style: none;
+
+    gap: 100px;
+
+}
+
+
+
+
+
+.ul-perso a {
+
+    text-decoration: none;
+
+    font-size: 24px;
+
+    font-weight: medium;
+
+    color: white;
+
+   
+
+
+
+}
+
+
+
+.ul-perso a:hover{
+
+    cursor: pointer;
+
+    color: orange;
+
+}
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-weight: normal;
+    font-size: 10px;
+}
+
+body{
+    background: linear-gradient(#0d0d0d,#990505);
+}
+.entete{
+    font-size: 84px;
+    font-family:"julee",sans-serif ;
+    width: 100%;
+    height: 97px;
+    color: rgb(211, 25, 25);
+    padding-left: 38px;
+    padding-top: 20px;
+    z-index: 10px;
+    
+}
+.image{
+    height: 600px ;
+    width: 700px;
+    border-radius: 50%;
+    padding-top: 130px;
+    padding-left: 80px;
+    padding-bottom: 90px;
+    margin-left: 250px;   
+}
+h1{
+    font-size: 50px;
+    font-family:"julee",sans-serif ;
+    color: azure;
+    padding-left: 200px;
+    padding-top: 70px;
+}
+
+.block{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.imageblock{
+    width: 383px;
+    height: 430px;
+}
+.pblock{
+    font-family:"julee",sans-serif ;
+    color: azure; 
+    font-size: 38px;
+    
+}
+
+a{
+    text-decoration: none;
+    color: violet;
+    font-family:"julee",sans-serif ;
+    font-size: 25px; 
+}
+a:hover{
+    color: blueviolet;
+}
+a:focus{
+    color:rgb(85, 196, 85);
+}
+li{
+    font-family:"julee",sans-serif ;
+    color: azure; 
+    font-size: 18px;
+}
+ol{
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px; 
+}
+.lien{
+    border-color: blueviolet;
+    border-style: solid;
+    border-width: 1Opx;
+    border-radius: 2px;
+}
